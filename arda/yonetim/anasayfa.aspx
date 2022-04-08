@@ -18,11 +18,15 @@
                 </tr>
                 <tr>
                     <td>
-                        <asp:TextBox runat="server" id="tbYemekAdi"/></td>
-                    <td><asp:TextBox runat="server" id="tbMalzemeler"/></td>
-                    <td><asp:TextBox runat="server" id="tbTarifi"/></td>
+                        <asp:TextBox runat="server" id="tbYemekAdi" TextMode="MultiLine" Height="87px" 
+                            Width="248px"/></td>
+                    <td><asp:TextBox runat="server" id="tbMalzemeler" TextMode="MultiLine" Height="87px" 
+                            Width="248px"/></td>
+                    <td><asp:TextBox runat="server" id="tbTarifi" TextMode="MultiLine" Height="87px" 
+                            Width="248px"/></td>
                 </tr><tr><td colspan="3">
-                    <asp:Button Text="Ekle" ID="btYemekEkle" runat="server" /></td></tr>
+                    <asp:Button Text="Ekle" ID="btYemekEkle" runat="server" 
+                        OnClick="btYemekEkle_Click" /></td></tr>
             </table>
         </div>
     </form>
